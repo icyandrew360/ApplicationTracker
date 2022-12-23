@@ -6,7 +6,7 @@ A work in progress. Testing my ability to learn new languages & technologies and
  - Save date, application status
  - Display all job applications and status in order submitted
   
-#TODO:
+## TODO:
 
  - Option to display by alphabetical
  - Edit application status
