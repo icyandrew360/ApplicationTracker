@@ -26,10 +26,11 @@ namespace TestAPI
         {   
             while(true){
                 Console.WriteLine("\n1) View or edit list");
-                Console.WriteLine("2) Add new application\n");
-                //wait here until 1 or 2 is pressed
+                Console.WriteLine("2) Add new application");
+                Console.WriteLine("3) Edit an application status\n");
+                //wait here until valid key press
                 ConsoleKey key = ConsoleKey.D0;
-                while (key != ConsoleKey.D1 && key != ConsoleKey.D2){
+                while (key != ConsoleKey.D1 && key != ConsoleKey.D2 && key != ConsoleKey.D3){
                     key = Console.ReadKey(true).Key;
                 }
                 if (key == ConsoleKey.D2){
@@ -50,6 +51,15 @@ namespace TestAPI
                     Console.WriteLine("press space to continue... ");
                     Program.spaceToContinue();
                 }
+                //TODO: if company is invalid, return an error message
+                if (key == ConsoleKey.D3){
+                    Console.WriteLine("Editing application: \n");
+                    Console.WriteLine("enter the name of the company: ");
+                    String company = Console.ReadLine();
+                    Console.WriteLine("enter the new status of the application: ");
+                    String status = Console.ReadLine();
+                    editApplication(company, status);
+                }
             }
         }
         public static void addNewApplication(string company, string date)
@@ -59,6 +69,18 @@ namespace TestAPI
             temp[1] = date;
             temp[2] = "waiting";
             appData.Add(temp);
+        }
+
+        public static void editApplication(string company, string status)
+        {
+            company = company.ToLower();
+            foreach (string[] applicationLine in appData){
+                if (String.Compare(applicationLine[0].ToLower(),company) == 0){//found the company
+                    applicationLine[2] = status;
+                    Console.WriteLine("Changed status for " + company);
+                    return;
+                }
+            }
         }
         public static void showApplications()
         {
