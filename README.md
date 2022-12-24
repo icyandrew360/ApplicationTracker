@@ -5,11 +5,11 @@ A work in progress. Testing my ability to learn new languages & technologies and
  - Save company job applications
  - Save date, application status
  - Display all job applications and status in order submitted
+ - Edit application status
   
 ## TODO:
 
  - Option to display by alphabetical
- - Edit application status
  - Delete/modify application names and dates
  - Saving to database
  - User-friendly GUI
