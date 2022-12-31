@@ -6,11 +6,11 @@ A work in progress. Testing my ability to learn new languages & technologies and
  - Save date, application status
  - Display all job applications and status in order submitted
  - Edit application status
+ - Saving to database
   
 ## TODO:
 
  - Option to display by alphabetical
  - Delete/modify application names and dates
- - Saving to database
  - User-friendly GUI
  - File uploads for each application (resume, transcript)
