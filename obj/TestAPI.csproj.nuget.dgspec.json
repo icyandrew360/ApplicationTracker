@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\andre\\OneDrive\\Desktop\\andrew's space saver\\TestAPI\\TestAPI.csproj": {}
+    "F:\\Cygwin\\home\\Andrew Howe\\ApplicationTracker\\TestAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\andre\\OneDrive\\Desktop\\andrew's space saver\\TestAPI\\TestAPI.csproj": {
+    "F:\\Cygwin\\home\\Andrew Howe\\ApplicationTracker\\TestAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\andre\\OneDrive\\Desktop\\andrew's space saver\\TestAPI\\TestAPI.csproj",
+        "projectUniqueName": "F:\\Cygwin\\home\\Andrew Howe\\ApplicationTracker\\TestAPI.csproj",
         "projectName": "TestAPI",
-        "projectPath": "C:\\Users\\andre\\OneDrive\\Desktop\\andrew's space saver\\TestAPI\\TestAPI.csproj",
-        "packagesPath": "C:\\Users\\andre\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\andre\\OneDrive\\Desktop\\andrew's space saver\\TestAPI\\obj\\",
+        "projectPath": "F:\\Cygwin\\home\\Andrew Howe\\ApplicationTracker\\TestAPI.csproj",
+        "packagesPath": "C:\\Users\\Andrew Howe\\.nuget\\packages\\",
+        "outputPath": "F:\\Cygwin\\home\\Andrew Howe\\ApplicationTracker\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\andre\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Andrew Howe\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"

@@ -19,8 +19,9 @@ namespace TestAPI
         {
             Console.WriteLine("Press space to continue...");
             spaceToContinue();
+            SQLiteConnection DBcontroller = SQLite.Controller.CreateConnection();
             //then display a list of current applications
-            manageDB.listDB();         
+            manageDB.mainPage();         
         }
     }
 
@@ -28,7 +29,7 @@ namespace TestAPI
     {
         static ArrayList appData = new ArrayList();
         
-        public static void listDB()
+        public static void mainPage()
         {   
             while(true){
                 Console.WriteLine("\n1) View or edit list");
@@ -74,6 +75,7 @@ namespace TestAPI
             temp[0] = company;
             temp[1] = date;
             temp[2] = "waiting";
+            string validateTable = "CREATE TABLE applications (Col1 VARCHAR(20), Col2 VARCHAR(20), Col3 VARCHAR(20)) IF NOT EXISTS";
             appData.Add(temp);
         }
 

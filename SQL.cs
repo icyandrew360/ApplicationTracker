@@ -1,10 +1,30 @@
-// using System;
-// using System.Collections.Generic;
-// using System.Data.SQLite;
-// using System.Linq;
-// using System.Text;
-// using System.Threading.Tasks;
+using System;
+using System.Collections.Generic;
+using System.Data.SQLite;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
+namespace SQLite
+{
+    class Controller
+    {
+        public static SQLiteConnection CreateConnection(){
+            SQLiteConnection connection;
+            //create a new database connection
+            connection = new SQLiteConnection("Data Source=database.db;Version=3;New=True;Compress=True;");
+            try
+            {
+                connection.Open();
+            }
+            catch(Exception e)
+            {
+
+            }
+            return connection;
+        }
+    }
+}
 // namespace SQLiteDemo
 // {
 //    class Program

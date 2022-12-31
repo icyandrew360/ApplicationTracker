@@ -40,3 +40,45 @@ C:\Users\andre\OneDrive\Desktop\andrew's space saver\TestAPI\bin\Debug\net7.0\ru
 C:\Users\andre\OneDrive\Desktop\andrew's space saver\TestAPI\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\andre\OneDrive\Desktop\andrew's space saver\TestAPI\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
 C:\Users\andre\OneDrive\Desktop\andrew's space saver\TestAPI\obj\Debug\net7.0\TestAPI.csproj.CopyComplete
+F:\Cygwin\home\Andrew Howe\ApplicationTracker\bin\Debug\net7.0\TestAPI.exe
+F:\Cygwin\home\Andrew Howe\ApplicationTracker\bin\Debug\net7.0\TestAPI.deps.json
+F:\Cygwin\home\Andrew Howe\ApplicationTracker\bin\Debug\net7.0\TestAPI.runtimeconfig.json
+F:\Cygwin\home\Andrew Howe\ApplicationTracker\bin\Debug\net7.0\TestAPI.dll
+F:\Cygwin\home\Andrew Howe\ApplicationTracker\bin\Debug\net7.0\TestAPI.pdb
+F:\Cygwin\home\Andrew Howe\ApplicationTracker\bin\Debug\net7.0\EntityFramework.SqlServer.dll
+F:\Cygwin\home\Andrew Howe\ApplicationTracker\bin\Debug\net7.0\EntityFramework.dll
+F:\Cygwin\home\Andrew Howe\ApplicationTracker\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+F:\Cygwin\home\Andrew Howe\ApplicationTracker\bin\Debug\net7.0\System.Data.SQLite.dll
+F:\Cygwin\home\Andrew Howe\ApplicationTracker\bin\Debug\net7.0\System.CodeDom.dll
+F:\Cygwin\home\Andrew Howe\ApplicationTracker\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+F:\Cygwin\home\Andrew Howe\ApplicationTracker\bin\Debug\net7.0\System.Data.SqlClient.dll
+F:\Cygwin\home\Andrew Howe\ApplicationTracker\bin\Debug\net7.0\System.Data.SQLite.EF6.dll
+F:\Cygwin\home\Andrew Howe\ApplicationTracker\bin\Debug\net7.0\System.Drawing.Common.dll
+F:\Cygwin\home\Andrew Howe\ApplicationTracker\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+F:\Cygwin\home\Andrew Howe\ApplicationTracker\bin\Debug\net7.0\System.Security.Permissions.dll
+F:\Cygwin\home\Andrew Howe\ApplicationTracker\bin\Debug\net7.0\System.Windows.Extensions.dll
+F:\Cygwin\home\Andrew Howe\ApplicationTracker\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+F:\Cygwin\home\Andrew Howe\ApplicationTracker\bin\Debug\net7.0\runtimes\win-arm64\native\sni.dll
+F:\Cygwin\home\Andrew Howe\ApplicationTracker\bin\Debug\net7.0\runtimes\win-x64\native\sni.dll
+F:\Cygwin\home\Andrew Howe\ApplicationTracker\bin\Debug\net7.0\runtimes\win-x86\native\sni.dll
+F:\Cygwin\home\Andrew Howe\ApplicationTracker\bin\Debug\net7.0\runtimes\linux-x64\native\SQLite.Interop.dll
+F:\Cygwin\home\Andrew Howe\ApplicationTracker\bin\Debug\net7.0\runtimes\osx-x64\native\SQLite.Interop.dll
+F:\Cygwin\home\Andrew Howe\ApplicationTracker\bin\Debug\net7.0\runtimes\win-x64\native\SQLite.Interop.dll
+F:\Cygwin\home\Andrew Howe\ApplicationTracker\bin\Debug\net7.0\runtimes\win-x86\native\SQLite.Interop.dll
+F:\Cygwin\home\Andrew Howe\ApplicationTracker\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+F:\Cygwin\home\Andrew Howe\ApplicationTracker\bin\Debug\net7.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+F:\Cygwin\home\Andrew Howe\ApplicationTracker\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+F:\Cygwin\home\Andrew Howe\ApplicationTracker\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+F:\Cygwin\home\Andrew Howe\ApplicationTracker\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+F:\Cygwin\home\Andrew Howe\ApplicationTracker\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+F:\Cygwin\home\Andrew Howe\ApplicationTracker\obj\Debug\net7.0\TestAPI.csproj.AssemblyReference.cache
+F:\Cygwin\home\Andrew Howe\ApplicationTracker\obj\Debug\net7.0\TestAPI.GeneratedMSBuildEditorConfig.editorconfig
+F:\Cygwin\home\Andrew Howe\ApplicationTracker\obj\Debug\net7.0\TestAPI.AssemblyInfoInputs.cache
+F:\Cygwin\home\Andrew Howe\ApplicationTracker\obj\Debug\net7.0\TestAPI.AssemblyInfo.cs
+F:\Cygwin\home\Andrew Howe\ApplicationTracker\obj\Debug\net7.0\TestAPI.csproj.CoreCompileInputs.cache
+F:\Cygwin\home\Andrew Howe\ApplicationTracker\obj\Debug\net7.0\TestAPI.csproj.CopyComplete
+F:\Cygwin\home\Andrew Howe\ApplicationTracker\obj\Debug\net7.0\TestAPI.dll
+F:\Cygwin\home\Andrew Howe\ApplicationTracker\obj\Debug\net7.0\refint\TestAPI.dll
+F:\Cygwin\home\Andrew Howe\ApplicationTracker\obj\Debug\net7.0\TestAPI.pdb
+F:\Cygwin\home\Andrew Howe\ApplicationTracker\obj\Debug\net7.0\TestAPI.genruntimeconfig.cache
+F:\Cygwin\home\Andrew Howe\ApplicationTracker\obj\Debug\net7.0\ref\TestAPI.dll
