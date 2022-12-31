@@ -12,6 +12,7 @@ namespace TestAPI
     
     class Program
     {
+        public static SQLiteConnection DBcontroller;
         public static void spaceToContinue(){
             while (Console.ReadKey(true).Key != ConsoleKey.Spacebar);
         }
@@ -19,7 +20,7 @@ namespace TestAPI
         {
             Console.WriteLine("Press space to continue...");
             spaceToContinue();
-            SQLiteConnection DBcontroller = SQLite.Controller.CreateConnection();
+            DBcontroller = SQLite.Controller.CreateConnection();
             //then display a list of current applications
             manageDB.mainPage();         
         }
@@ -75,7 +76,17 @@ namespace TestAPI
             temp[0] = company;
             temp[1] = date;
             temp[2] = "waiting";
-            string validateTable = "CREATE TABLE applications (Col1 VARCHAR(20), Col2 VARCHAR(20), Col3 VARCHAR(20)) IF NOT EXISTS";
+            SQLiteCommand command;
+            command = Program.DBcontroller.CreateCommand();
+            string validateTable = "CREATE TABLE IF NOT EXISTS applications (Company VARCHAR(20), Date VARCHAR(20), Status VARCHAR(20))";
+            command.CommandText = validateTable;
+            command.ExecuteNonQuery();
+            string addApplication = "INSERT INTO applications (Company, Date, Status) VALUES (@param1, @param2, 'waiting')";
+            command.CommandText = addApplication;
+            command.Parameters.Add(new SQLiteParameter("@param1", company));
+            command.Parameters.Add(new SQLiteParameter("@param2", date));
+            command.ExecuteNonQuery();
+      
             appData.Add(temp);
         }
 
