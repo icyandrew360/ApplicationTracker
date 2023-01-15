@@ -9,8 +9,6 @@ A work in progress. Testing my ability to learn new languages & technologies and
  - Saving to database
   
 ## TODO:
-
- - Option to display by alphabetical
- - Delete/modify application names and dates
- - User-friendly GUI
+ - Migrate to a web application
+ - Implement Google Firebase Cloud Firestore API
  - File uploads for each application (resume, transcript)
