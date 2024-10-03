@@ -11,5 +11,5 @@ This version is deprecated and being used as a proof of concept. Currently creat
   
 ## TODO:
  - Migrate to a web application
- - Implement Google Firebase Cloud Firestore API
+ - Integrate Google Firebase Cloud Firestore API
  - File uploads for each application (resume, transcript)
